@@ -16,7 +16,7 @@ class Endereco {
 	}
 
 	public function __toString() {
-		return $this->logadouro . "," . $this->numero . "-" . $this->cidade;
+		return $this->logadouro . "," . $this->numero . " - " . $this->cidade;
 	}
 }
 
